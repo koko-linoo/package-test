@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/greet.tsx"],"sourcesContent":["export default function Greet({ name }: { name: string }) {\r\n  return <h1>Hello {name}</h1>;\r\n}\r\n"],"mappings":";AACS;AADM,SAAR,MAAuB,EAAE,KAAK,GAAqB;AACxD,SAAO,qBAAC,QAAG;AAAA;AAAA,IAAO;AAAA,KAAK;AACzB;","names":[]}

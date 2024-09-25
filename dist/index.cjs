@@ -24,10 +24,15 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 
 // src/components/greet.tsx
+var import_jsx_runtime = require("react/jsx-runtime");
 function Greet({ name }) {
-  return /* @__PURE__ */ React.createElement("h1", null, "Hello ", name);
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", { children: [
+    "Hello ",
+    name
+  ] });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Greet
 });
+//# sourceMappingURL=index.cjs.map
